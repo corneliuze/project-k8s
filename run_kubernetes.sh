@@ -8,7 +8,7 @@ dockerpath=falay/prediction-app
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run prediction-app-pod --image=$dockerpath --port=80 --labels app=prediction-app-pod
+kubectl run prediction-app-pod --image=$dockerpath --port=80 
 
 # Step 3:
 # List kubernetes pods
